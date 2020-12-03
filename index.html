@@ -3,9 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This is the title</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Akshay's Portfolio</title>
   </head>
   <body>
-    <header>This is the page !</header>
+    <nav id="navbar">
+      <ul>
+        <a href="#welcome-section"><li>Home</li></a>
+        <a href="#project-section"><li>My Projects</li></a>
+       <!--<a href="#contact-section"><li>Contact</li></a>--> 
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      
+
+      <header>
+        <h1>Hello ! AKSHAY here .</h1>
+        <p>Nice to meet you!</p>
+        <br />
+        <p>Go to my Github page</p>
+        <br />
+        <a
+          href="https://github.com/Akshay-Tarde"
+          target="_blank"
+          id="profile-link"
+          class="fab fa-github-square"
+          >Github</a
+        >
+      </header>
+    </section>
+
+    <section id="project-section">
+      <header>
+        <h1>These are some of my projects.</h1>
+        <div class="tile-container">
+            <a href="https://codepen.io/akshay_wannabe_dev/full/qBadbGd" target="_blank" class="project-a">
+              <img src="./Documentation.png"  class="img" alt="Documentation" />
+              <br><br>
+            <p class="project-p">Documentation Page</p>
+            </a>
+             
+            <a href="https://codepen.io/akshay_wannabe_dev/full/oNzgmVo" target="_blank" class="project-a" >
+              <img src="./PLP.png" alt="Landing Page Project" class="img" />
+              <br><br>
+            <p class="project-p">Product Landing Page</p>
+            </a>
+
+            <a href="https://codepen.io/akshay_wannabe_dev/full/wvzBpGJ" target="_blank" class="project-a" >
+              <img src="./survey form.png" alt="survey form" class="img" />
+              <br><br>
+            <p class="project-p">Survey Form(Open in Firefox only)</p>
+            </a>
+            <a href="https://codepen.io/akshay_wannabe_dev/full/abmzVoy" target="_blank" class="project-a" >
+              <img src="./tribute page.png" alt="Tribute Page" class="img" />
+              <br><br>
+            <p class="project-p">Tribute Page</p>
+            </a>
+            
+          
+      </header>
+    </section>
+    <!--<section id="contact-section">
+      <header>
+        <h1>Contact me here</h1>
+        <p>I am a developer .</p>
+      </header>
+    </section>-->
+    
   </body>
 </html>
